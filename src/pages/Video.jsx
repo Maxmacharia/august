@@ -15,7 +15,7 @@ export default function Video() {
         Your browser does not support the video tag.
       </video>
 
-      <a href="/app/reasons">
+      <a href="/august/reasons">
         <button className="mt-8 px-6 py-3 bg-rose-500 hover:bg-rose-600 transition text-white rounded-full text-lg shadow-md">
           Next 💗
         </button>

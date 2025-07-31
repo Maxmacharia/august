@@ -19,7 +19,7 @@ export default function Reasons() {
       </p>
 
       <div className="mt-10">
-        <a href="/app/game">
+        <a href="/august/game">
           <button className="px-6 py-3 bg-pink-500 hover:bg-pink-600 text-white text-lg font-semibold rounded-full transition duration-300">
             Play a game ❤️
           </button>
