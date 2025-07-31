@@ -8,15 +8,17 @@ import Final from './pages/Final';
 
 export default function App() {
   return (
-    <Router basename="/august"> {/* adjust to your deployment subpath */}
-      <Routes>
-        <Route path="/girlfriend-day" element={<GirlfriendDay />} />
-        <Route path="/video" element={<Video />} />
-        <Route path="/reasons" element={<Reasons />} />
-        <Route path="/game" element={<Game />} />
-        <Route path="/gift" element={<Gift />} />
-        <Route path="/final" element={<Final />} />
-      </Routes>
-    </Router>
+    <Router basename="/august">
+  	<Routes>
+    		<Route path="/" element={<GirlfriendDay />} />
+    		<Route path="/girlfriend-day" element={<GirlfriendDay />} />
+    		<Route path="/video" element={<Video />} />
+    		<Route path="/reasons" element={<Reasons />} />
+    		<Route path="/game" element={<Game />} />
+    		<Route path="/gift" element={<Gift />} />
+    		<Route path="/final" element={<Final />} />
+  	</Routes>
+     </Router>
+
   );
 }
