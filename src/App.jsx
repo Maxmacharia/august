@@ -8,7 +8,7 @@ import Final from './pages/Final';
 
 export default function App() {
   return (
-    <Router basename="/app"> {/* adjust to your deployment subpath */}
+    <Router basename="/august"> {/* adjust to your deployment subpath */}
       <Routes>
         <Route path="/girlfriend-day" element={<GirlfriendDay />} />
         <Route path="/video" element={<Video />} />
